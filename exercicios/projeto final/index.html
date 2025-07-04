@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Floratta Botânica</title>
+  <style>
+    :root {
+      --verde: #6B8E4E;
+      --bege: #f5f1e6;
+      --rosa: #d9a8a3;
+      --fonte-titulo: 'Georgia', serif;
+      --fonte-texto: 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--fonte-texto);
+      background-color: var(--bege);
+      color: #333;
+    }
+
+    header {
+      background-color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-family: var(--fonte-titulo);
+      color: var(--verde);
+      font-size: 28px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--verde);
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1582281298055-426c1d70b689');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .destaques {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .produtos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .produto {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 220px;
+      text-align: center;
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      font-family: var(--fonte-titulo);
+      color: var(--verde);
+      margin: 10px 0 5px;
+    }
+
+    footer {
+      background-color: #eee;
+      padding: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .produtos {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Floratta Botânica</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Produtos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Blog</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Beleza natural começa com cuidado verdadeiro</h2>
+  </section>
+
+  <section class="destaques">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1611672585731-63f4fef1c2dc" alt="Sabonete artesanal" />
+        <h3>Sabonete Floral</h3>
+        <p>Feito com óleos essenciais e flores naturais.</p>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1620469046875-dfb68d28c6c5" alt="Óleo corporal" />
+        <h3>Óleo Calmante</h3>
+        <p>Relaxa, hidrata e perfuma suavemente.</p>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1608032076073-1fa6c59b1ecb" alt="Creme facial" />
+        <h3>Creme de Camomila</h3>
+        <p>Ideal para peles sensíveis e delicadas.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Floratta Botânica. Todos os direitos reservados.  
+  </footer>
+</body>
+</html>
