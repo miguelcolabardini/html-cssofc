@@ -1,2 +1,37 @@
-# html-css
-projetos
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbeira Ragnor</title>
+    <link rel="shortcut icon" href="ChatGPT Image 13 jun. de 2025, 21_20_23.png" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+   <nav>
+    <menu>
+        <a href="inicio.html" target="_blank" rel="next"> Inicio</a>
+        <a href="serviços.html" target="_blank" rel="next"> Serviços</a>
+        <a href="agendamento.html"target="_blank"rel="next">Agendamento</a>
+       <a href="intendiade.html" target="_blank" rel="next">Indentidade</a>
+    </menu>
+    <img src="pagianlogo250.png" alt="logo">
+    <h1><strong>Prazer,bem vindo a pagina da nossa barbearia!.</strong></h1>
+   <ul>
+   <img id="logo"   src="IMAGEM/barbeiroinical250.jpeg" alt="barbeiro">
+   <h2 class="apresentacao">Sou Rafael, barbeiro há mais de 10 anos.
+   Com experiência, técnica e paixão pelo que faço, ofereço cortes e barbas com estilo, cuidado e personalidade</h2>
+    
+   </ul>
+   </nav>
+   </header>
+   <footer>
+      <h3>🏠 eduardo amaral 673 apto 24
+         <br>
+      📞 35 991026320</h3>
+
+
+   </footer>
+</body>
+</html>
